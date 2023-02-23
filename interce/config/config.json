@@ -1,0 +1,38 @@
+{
+  "experiment": {
+    "name": "[name of experiment]",
+    "desc": "[config of experiment]"
+  },
+  "dataset": "DS",
+  "inpath": "[path to the input data repo]",
+  "wd": "[current directory]",
+  "atts": ["list of attributes"],
+  "memory": {
+    "similarity_thresold": 0.8
+  },
+  "ensemble": {
+    "activity": {
+      "delta": 0.5
+    },
+    "autoencoder": {
+      "ae_path": "./models/autoencoder_p",
+      "enc_path": "./models/encoder_p",
+      "winsize": 3000,
+      "sampling_rate": 40,
+      "delta": 0.3
+    },
+    "expert": {
+      "wd": "[path to the epxert system code]",
+      "tmp_repo": "[temporary repos to post-process expert system extraction results]"
+    }
+  },
+  "database": {
+    "dbname": "[name of database]",
+    "user": "[user of database]",
+    "pwd": "[pwd of database]"
+  },
+  "gui": {
+    "interval_new_queries": 3000,
+    "interval_process": 2000
+  }
+}
