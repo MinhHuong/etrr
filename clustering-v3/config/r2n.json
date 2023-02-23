@@ -1,0 +1,40 @@
+{
+  "dataset": "r2n",
+  "clustering": {
+    "eps": 12,
+    "mu": 5,
+    "beta": 0.4,
+    "lamb": 0.06,
+    "min_points_system": 5,
+    "time_unit": "second",
+    "n_pmc": 100000,
+    "distance": "euclidean"
+  },
+  "preprocessing": {
+    "atts_bis": ["w_global", "qi_pl", "delta_p_dec1", "delta_p_lou", "ec_t_pl", "t_fdcv_bsup", "tps_dec2",
+      "ec_i_pl23", "p_fdcf_bsup", "max_i_pl", "ec_i_pl3", "tps_but", "ec_i_pl1", "max_t_dec1", "max_t_lou",
+      "qi_dec2", "max_i_dec1", "vit_lou", "max_p_but", "max_i_dec2", "delta_p_pic_fcv_but", "qi_dec1", "w_pl3",
+      "i_fdcv_binf", "ec_t_lou", "tdiff_dec2", "vit_pl", "ec_i_pl4", "p_fdcv_bsup", "pic_p_but", "max_t_pl"],
+    "atts_all": ["tps_cycle", "w_global", "p_fdcf_binf", "p_fdcf_bsup", "i_fdcf_binf", "i_fdcf_bsup", "t_fdcf_binf",
+      "t_fdcf_bsup", "p_fdcv_binf", "p_fdcv_bsup", "i_fdcv_binf", "i_fdcv_bsup", "t_fdcv_binf", "t_fdcv_bsup",
+      "min_pos", "max_pos", "tdiff_dec1", "max_t_dec1", "qi_dec1", "max_i_dec1", "delta_p_dec1", "w_dec1", "max_t_pl",
+      "mean_t_pl", "ec_t_pl", "qi_pl", "max_i_pl", "delta_p_pl", "vit_pl", "w_pl", "mean_i_pl1", "ec_i_pl1", "w_pl1",
+      "mean_i_pl2", "ec_i_pl2", "w_pl2", "mean_i_pl3", "ec_i_pl3", "w_pl3", "mean_i_pl4", "ec_i_pl4", "w_pl4",
+      "mean_i_pl23", "ec_i_pl23", "w_pl23", "tdiff_dec2", "max_t_dec2", "qi_dec2", "max_i_dec2", "delta_p_dec2",
+      "w_dec2", "max_t_lou", "mean_t_lou", "ec_t_lou", "qi_lou", "delta_p_lou", "vit_lou", "qi_but", "max_i_but",
+      "mean_p_but", "max_p_but", "min_p_but", "std_p_but", "delta_p_but", "w_but", "tps_dec1", "tps_lou", "tps_pl",
+      "tps_dec2", "tps_but"],
+    "atts": ["tps_cycle", "w_global", "p_fdcf_binf", "p_fdcf_bsup", "p_fdcv_binf", "p_fdcv_bsup", "min_pos", "max_pos",
+      "qi_dec1", "max_i_dec1", "delta_p_dec1", "w_dec1", "qi_pl", "max_i_pl", "delta_p_pl", "vit_pl", "w_pl",
+      "mean_i_pl1", "ec_i_pl1", "w_pl1", "mean_i_pl2", "ec_i_pl2", "w_pl2", "mean_i_pl3", "ec_i_pl3", "w_pl3",
+      "mean_i_pl4", "ec_i_pl4", "w_pl4", "mean_i_pl23", "ec_i_pl23", "w_pl23", "qi_dec2", "max_i_dec2", "delta_p_dec2",
+      "w_dec2", "qi_lou", "delta_p_lou", "vit_lou", "qi_but", "max_i_but",  "mean_p_but", "max_p_but", "min_p_but",
+      "std_p_but", "w_but", "tps_dec1", "tps_lou", "tps_pl", "tps_dec2", "tps_but"],
+    "excluded_cycles": "D:\\PhD\\Code\\health-monitoring\\clustering-v3\\config\\excluded_cycles.txt",
+    "dimension": 3
+  },
+  "experiment": {
+    "expe_name": "OfficialExperiment",
+    "note": "Rerun the expe as I did for IEEE BigData"
+  }
+}

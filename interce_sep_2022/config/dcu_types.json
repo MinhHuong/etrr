@@ -1,0 +1,412 @@
+{
+  "portes": [
+    {
+      "position": 0,
+      "name": "time_step",
+      "type": "UInt32",
+      "used": "True"
+    },
+    {
+      "position": 1,
+      "name": "ltao",
+      "type": "UInt8",
+      "used": "True"
+    },
+    {
+      "position": 2,
+      "name": "ltif",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 3,
+      "name": "ltcf",
+      "type": "UInt8",
+      "used": "True"
+    },
+    {
+      "position": 4,
+      "name": "q550",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 5,
+      "name": "q920",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 6,
+      "name": "opcm",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 7,
+      "name": "rearm",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 8,
+      "name": "inibopufr",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 9,
+      "name": "ri9",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 10,
+      "name": "ri10",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 11,
+      "name": "devext",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 12,
+      "name": "vinf05",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 13,
+      "name": "coddgpor",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 14,
+      "name": "codvivepor",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 15,
+      "name": "condufrop",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 16,
+      "name": "bpint",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 17,
+      "name": "bpext",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 18,
+      "name": "fdccondpor",
+      "type": "boolean",
+      "used": "True"
+    },
+    {
+      "position": 19,
+      "name": "obsdet",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 20,
+      "name": "fcfpor",
+      "type": "boolean",
+      "used": "True"
+    },
+    {
+      "position": 21,
+      "name": "zufr",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 22,
+      "name": "fccpor1",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 23,
+      "name": "fccpor2",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 24,
+      "name": "fcfpmr",
+      "type": "boolean",
+      "used": "True"
+    },
+    {
+      "position": 25,
+      "name": "fcvpmr",
+      "type": "boolean",
+      "used": "True"
+    },
+    {
+      "position": 26,
+      "name": "fcdpmr",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 27,
+      "name": "fccpmr1",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 28,
+      "name": "fccpmr2",
+      "used": "False",
+      "type": "UInt8"
+    },
+    {
+      "position": 29,
+      "name": "fcfufr",
+      "type": "boolean",
+      "used": "True"
+    },
+    {
+      "position": 30,
+      "name": "fcvufr",
+      "type": "boolean",
+      "used": "True"
+    },
+    {
+      "position": 31,
+      "name": "fcdufr",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 32,
+      "name": "fccufr1",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 33,
+      "name": "fccufr2",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 34,
+      "name": "ik4",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 35,
+      "name": "k1",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 36,
+      "name": "k2",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 37,
+      "name": "dispsec",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 38,
+      "name": "ri38",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 39,
+      "name": "ri39",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 40,
+      "name": "ri40",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 41,
+      "name": "vermar",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 42,
+      "name": "bobdev",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 43,
+      "name": "bobver",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 44,
+      "name": "lumbp",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 45,
+      "name": "frmarch",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 46,
+      "name": "alm72v",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 47,
+      "name": "ro7",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 48,
+      "name": "ro8",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 49,
+      "name": "ro9",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 50,
+      "name": "asb1",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 51,
+      "name": "asb2",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 52,
+      "name": "asb3",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 53,
+      "name": "vsigf",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 54,
+      "name": "vsigcondufri",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 55,
+      "name": "vsigcondufre",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 56,
+      "name": "etpordev",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 57,
+      "name": "vsigcondpori",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 58,
+      "name": "vsigcondpore",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 59,
+      "name": "ufrcond",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 60,
+      "name": "cptpass",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 61,
+      "name": "cptcycle",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 62,
+      "name": "ok4",
+      "type": "UInt8",
+      "used": "False"
+    },
+    {
+      "position": 63,
+      "name": "pmot",
+      "type": "Int16",
+      "used": "True"
+    },
+    {
+      "position": 64,
+      "name": "imot",
+      "type": "Int16",
+      "used": "True"
+    },
+    {
+      "position": 65,
+      "name": "umot",
+      "type": "Int16",
+      "used": "True"
+    },
+    {
+      "position": 66,
+      "name": "id",
+      "type": "UInt8",
+      "used": "True"
+    },
+    {
+      "position": 67,
+      "name": "time",
+      "type": "float32",
+      "used": "True"
+    }
+  ]
+}

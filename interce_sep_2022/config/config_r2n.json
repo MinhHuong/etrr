@@ -1,0 +1,42 @@
+{
+  "experiment": {
+    "name": "1000_Offline_Train400",
+    "desc": "Offline InterCE trained on 400 files"
+  },
+  "dataset": "r2n",
+  "inpath": "E:\\PhD\\Data\\clean\\2021\\R2N_decoded",
+  "wd": "D:\\PhD\\Code\\cycle_extraction\\interce_sep_2022",
+  "atts": ["courant_moteur_de_la_porte", "tension_moteur_de_la_porte", "position_moteur_de_la_porte"],
+  "memory": {
+    "similarity_thresold": 0.8,
+    "query_threshold": 0.8
+  },
+  "knowledge": {
+    "n_clusters": 4
+  },
+  "ensemble": {
+    "activity": {
+      "delta": 0.5
+    },
+    "autoencoder": {
+      "ae_path": "D:\\PhD\\Code\\cycle_extraction\\interce_sep_2022\\models\\r2n\\autoencoder_p",
+      "enc_path": "D:\\PhD\\Code\\cycle_extraction\\interce_sep_2022\\models\\r2n\\encoder_p",
+      "winsize": 3000,
+      "sampling_rate": 40,
+      "delta": 0.3
+    },
+    "expert": {
+      "wd": "D:\\PhD\\Code\\cycle_extraction\\interce_sep_2022",
+      "tmp_repo": "D:\\PhD\\Code\\cycle_extraction\\interce_sep_2022\\tmp"
+    }
+  },
+  "database": {
+    "dbname": "interce_r2n_offline_train400",
+    "user": "postgres",
+    "pwd": "123456"
+  },
+  "gui": {
+    "interval_new_queries": 3000,
+    "interval_process": 2000
+  }
+}
